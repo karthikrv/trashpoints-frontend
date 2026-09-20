@@ -9,8 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "firebase": "^12.19.0",
     "next": "16.3.5",
-    "next-auth": "^4.24.15",
+    "next-auth": "^5.0.0-beta.32",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
@@ -23,5 +24,8 @@
     "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "optionalDependencies": {
+    "@tailwindcss/oxide-linux-x64-gnu": "^4.3.3"
   }
 }
